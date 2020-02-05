@@ -11,7 +11,7 @@ import framework2
 import Firebase
 
 public class App {
-    public static func run() -> Auth {
+    public static func configure() {
         FirebaseApp.configure()
     }
 }
